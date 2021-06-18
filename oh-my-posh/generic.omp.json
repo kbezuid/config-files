@@ -81,6 +81,38 @@
           }
         },
         {
+          "type": "az",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#000000",
+          "background": "#9ec3f0",
+          "properties": {
+            "display_id": false,
+            "display_name": true,
+            "info_separator": " @ ",
+            "prefix": " \uFD03 "
+          }
+        },
+        {
+          "type": "battery",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#193549",
+          "background": "#ffeb3b",
+          "properties": {
+            "battery_icon": "",
+            "discharging_icon": "\uF58B ",
+            "charging_icon": "\uF583 ",
+            "charged_icon": "\uF578 ",
+            "color_background": true,
+            "charged_color": "#4caf50",
+            "charging_color": "#40c4ff",
+            "discharging_color": "#ff5722",
+            "postfix": "\uF295 ",
+            "display_charging": true
+          }
+        },
+        {
           "type": "exit",
           "style": "powerline",
           "foreground": "#ffffff",
