@@ -122,13 +122,16 @@
           "type": "az",
           "style": "plain",
           "foreground": "p:blue",
-          "template": "ﴃ {{ .Name }}"
+          "template": "ﴃ {{ .Name }}",
+          "properties": {
+            "display_default": true
+          }
         },
         {
           "type": "aws",
           "style": "plain",
           "foreground": "p:orange",
-          "template": "  {{.Profile}}{{if .Region}}@{{.Region}}{{end}}"
+          "template": " \udb83\ude0f {{.Profile}}{{if .Region}}@{{.Region}}{{end}}"
         }
       ],
       "type": "prompt"
